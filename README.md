@@ -4,12 +4,12 @@ DataPulse adalah platform analitik dan wawasan (_insights_) waktu nyata (_real-t
 
 ## 🚀 Fitur Utama
 
-- **Live Dashboard**: Pantau KPI yang diperbarui secara _real-time_.
-- **Automated Reports**: Jadwalkan laporan mingguan atau bulanan secara otomatis.
-- **API Integration**: Hubungkan DataPulse ke berbagai sumber data melalui REST atau GraphQL API.
-- **Smart Alerts**: Atur peringatan berdasarkan ambang batas (_threshold_) melalui Slack atau email.
-- **Role-Based Access**: Kontrol akses terperinci untuk anggota tim dan klien.
-- **Multi-Team Workspaces**: Ruang kerja terpisah untuk tim pemasaran, produk, dan keuangan dengan pandangan menyeluruh untuk pimpinan.
+- **Live Dashboard**: Pantau KPI Anda yang diperbarui secara _real-time_ dengan pembaruan data dalam hitungan sub-detik.
+- **Automated Reports**: Jadwalkan laporan mingguan atau bulanan secara otomatis langsung ke kotak masuk (_inbox_) Anda dan bagikan dalam bentuk PDF dengan satu klik.
+- **API Integration**: Hubungkan ke sumber data mana pun melalui REST atau GraphQL API, dengan konektor bawaan untuk Salesforce, Stripe, dan Postgres.
+- **Smart Alerts**: Atur peringatan berdasarkan ambang batas (_threshold_) untuk menerima notifikasi melalui Slack atau email sebelum metrik yang melenceng menjadi masalah.
+- **Role-Based Access**: Kontrol secara pasti siapa yang dapat melihat apa dengan izin terperinci (_granular_), termasuk kemampuan berbagi _dashboard_ ke klien tanpa mengekspos data internal.
+- **Multi-Team Workspaces**: Sediakan ruang kerja terpisah untuk tim pemasaran, produk, dan keuangan, sementara pimpinan tetap memiliki gambaran menyeluruh dari satu tampilan.
 
 ## 🛠️ Teknologi yang Digunakan
 
