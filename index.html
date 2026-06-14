@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataPulse — Analytics & Insights for Modern Businesses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#" class="nav-logo" aria-label="DataPulse home">
+          <span class="logo-icon" aria-hidden="true">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="14" cy="14" r="3.5" fill="#00D4FF" />
+              <circle
+                cx="14"
+                cy="14"
+                r="7"
+                stroke="#00D4FF"
+                stroke-width="1.5"
+                stroke-opacity="0.5"
+              />
+              <circle
+                cx="14"
+                cy="14"
+                r="11"
+                stroke="#00D4FF"
+                stroke-width="1"
+                stroke-opacity="0.25"
+              />
+            </svg>
+          </span>
+          DataPulse
+        </a>
+        <button
+          class="nav-hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links" role="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-headline">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Real-time business intelligence</p>
+          <h1 class="hero-headline" id="hero-headline">
+            Turn raw data into<br />
+            <span class="accent">decisions that matter</span>
+          </h1>
+          <p class="hero-sub">
+            DataPulse gives your team a live command center for every metric
+            that drives your business — from revenue to retention, all in one
+            place.
+          </p>
+          <button class="btn-primary" id="cta-trial">Start Free Trial</button>
+        </div>
+        <figure
+          class="hero-visual"
+          aria-label="DataPulse dashboard illustration"
+        >
+          <div class="pulse-ring-wrap" aria-hidden="true">
+            <div class="pulse-ring r1"></div>
+            <div class="pulse-ring r2"></div>
+            <div class="pulse-ring r3"></div>
+            <div class="pulse-core">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="28"
+                  cy="28"
+                  r="28"
+                  fill="#00D4FF"
+                  fill-opacity="0.12"
+                />
+                <circle cx="28" cy="28" r="7" fill="#00D4FF" />
+              </svg>
+            </div>
+          </div>
+          <img
+            class="dashboard-img"
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=720&q=80&auto=format&fit=crop"
+            alt="DataPulse analytics dashboard showing real-time charts and metrics"
+            width="720"
+            height="420"
+            loading="eager"
+          />
+          <figcaption class="visually-hidden">
+            A preview of the DataPulse analytics dashboard
+          </figcaption>
+        </figure>
+      </section>
+
+      <section
+        class="features"
+        id="features"
+        aria-labelledby="features-heading"
+      >
+        <div class="section-inner">
+          <header class="section-header">
+            <p class="section-eyebrow">What you get</p>
+            <h2 id="features-heading">Everything you need to stay ahead</h2>
+            <p class="section-sub">
+              No spreadsheets. No waiting. Just answers.
+            </p>
+          </header>
+          <ol class="features-grid" role="list">
+            <li class="feature-card">
+              <span class="feature-icon" aria-hidden="true">⚡</span>
+              <h3>Live Dashboard</h3>
+              <p>
+                Watch your KPIs update in real time with sub-second data
+                refresh. Spot trends and anomalies the moment they happen — not
+                hours later.
+              </p>
+            </li>
+            <li class="feature-card">
+              <span class="feature-icon" aria-hidden="true">📊</span>
+              <h3>Automated Reports</h3>
+              <p>
+                Schedule weekly or monthly reports that write themselves and
+                land directly in your inbox. Share polished PDFs with
+                stakeholders in one click.
+              </p>
+            </li>
+            <li class="feature-card">
+              <span class="feature-icon" aria-hidden="true">🔗</span>
+              <h3>API Integration</h3>
+              <p>
+                Connect DataPulse to any data source via our REST or GraphQL
+                API. Native connectors for Salesforce, Stripe, and Postgres ship
+                out of the box.
+              </p>
+            </li>
+            <li class="feature-card">
+              <span class="feature-icon" aria-hidden="true">🔔</span>
+              <h3>Smart Alerts</h3>
+              <p>
+                Set threshold-based alerts and let DataPulse notify you on Slack
+                or email when a metric goes off-course before it becomes a
+                problem.
+              </p>
+            </li>
+            <li class="feature-card">
+              <span class="feature-icon" aria-hidden="true">🔒</span>
+              <h3>Role-Based Access</h3>
+              <p>
+                Control exactly who sees what with granular permissions. Share
+                specific dashboards with clients without exposing sensitive
+                internal data.
+              </p>
+            </li>
+            <li class="feature-card">
+              <span class="feature-icon" aria-hidden="true">🌐</span>
+              <h3>Multi-Team Workspaces</h3>
+              <p>
+                Keep marketing, product, and finance in their own lanes while
+                leadership sees the full picture across every workspace from one
+                view.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section
+        class="testimonial-section"
+        id="testimonial"
+        aria-labelledby="testimonial-heading"
+      >
+        <div class="section-inner">
+          <header class="section-header light">
+            <p class="section-eyebrow accent">Trusted by teams</p>
+            <h2 id="testimonial-heading">What our customers say</h2>
+          </header>
+          <article class="testimonial-card">
+            <blockquote>
+              <p class="testimonial-quote">
+                "Before DataPulse, our weekly reporting took half a day and was
+                always out of date by the time it landed. Now our whole
+                leadership team has a live view of the business before their
+                morning coffee. It's completely changed how we make decisions."
+              </p>
+            </blockquote>
+            <footer class="testimonial-author">
+              <img
+                class="testimonial-avatar"
+                src="user-svgrepo-com.svg"
+                alt="Portrait of Priya Nair"
+                width="40"
+                height="40"
+              />
+              <div>
+                <strong class="testimonial-name">Muhammad Udin</strong>
+                <span class="testimonial-role"
+                  >Head of Operations, Meridian Commerce</span
+                >
+              </div>
+            </footer>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="footer-copy"
+          >&copy; <span id="year"></span> DataPulse, Inc.</span
+        >
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </nav>
+        <nav class="footer-social" aria-label="Social media links">
+          <a href="#" aria-label="DataPulse on Twitter / X">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.836L1.254 2.25H8.08l4.258 5.635L18.244 2.25Zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="DataPulse on LinkedIn">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a1.98 1.98 0 1 1 0-3.96 1.98 1.98 0 0 1 0 3.96Zm1.955 13.019H3.38V9h3.912v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003Z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="DataPulse on GitHub">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              />
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
